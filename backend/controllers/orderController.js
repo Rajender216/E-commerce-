@@ -144,6 +144,7 @@ const placeOrderRazorpay = async (req, res) => {
       if (error) {
         console.log(error);
         return res.send({ success: false, message: error });
+        
       }
       res.send({ success: true, order });
     });

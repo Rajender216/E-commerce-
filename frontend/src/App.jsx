@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { ToastContainer, toast } from "react-toastify";
+
+import { ToastContainer } from "react-toastify";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
@@ -17,8 +17,6 @@ import SearchBar from "./components/SearchBar";
 import PageNotFound from "./pages/PageNotFound";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <div className="px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]">
